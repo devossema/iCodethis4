@@ -32,22 +32,24 @@ body .container {
     color: rgb(0, 0, 0);
 }
 
-.container .email {
-    border: 1px rgb(177, 196, 212) solid;
+.container label #email{
     width: 260px;
     height: 46px;
     border-radius: 5px;
+    border: none;
+    border: 1px rgb(177, 196, 212) solid;
 }
 
-.email p {
-    font-size: 13px;
-    padding: 0 100px 0 0px;
+.email input::placeholder {
     color: (177, 196, 212);
+    font-size: 13px;
+    padding-left: 10px;
 }
-
+  
 .container button{
     background-color: #3d9fff;
     border: 1px rgb(177, 196, 212) solid;
+    height: 50px;
     margin-left: 1ch;
     border-radius: 5px;
     text-align: center;
